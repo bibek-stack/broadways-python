@@ -1,0 +1,10 @@
+# on developing apps or products, we may have different versions of that product. if the new version is update then, the previous version code should also maintained. so, such maintaing of versions is carried by version control version system. There are different version control
+system like git, mercurial, perforce etc.
+
+# Need of version control system
+* to maintain control version
+*for team collaboration in a project.
+
+the codes of project should be stored somewhere in the cloud. google drive or any other cloud storage sevices can be used for storing code, but they doesn,t provide git support and there will be more manual work for 
+team collaboration, so, we use cloud services which is undestand git instead of google drive. the example of such 
+cloud services which understand git are github, gitlab, bitbucket etc.
