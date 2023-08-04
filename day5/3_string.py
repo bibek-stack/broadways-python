@@ -47,5 +47,3 @@ def addituion(a, b):
     :return: sum of a and b
     """
     return a+b
-
-help(addition)

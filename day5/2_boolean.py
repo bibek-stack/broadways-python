@@ -58,3 +58,44 @@ print(True +2) # 1+2=3
 print(70 + False)#70*0=0
 print(True + True)# 1+1=2
 print(True + False)# 1+0 = 1
+
+
+# we have bool()builtin for the boolean type
+# # anything truthy inside the bool() function gives true wheres anything false inside
+# bool() gives false
+# 
+# any non-empty datatype are considered truthly. examples of truthly are:
+a = 23
+b=12.1
+c=[1,2,3] # it is a non-empty list
+d=[1,2,3]# it is non-empty tuple
+e={1,2,3}# it is non-empty set
+f={"name":"jon","age": 23}# it is non-empty dictionary
+
+g= True
+print(bool(a)) #True
+print(bool(b)) #True
+print(bool(c)) #True
+print(bool(d)) #True
+print(bool(e)) #True
+print(bool(f)) #True
+print(bool(g)) #True
+
+# all the empty datatypes, none and false are falsy values
+a=0
+b=0.0
+c=[]
+d=()
+e={}
+f=set()
+g=""
+h=None
+i=False
+bool()
+
+print(bool(a)) #false
+print(bool(b)) #false
+print(bool(c)) #false
+print(bool(d)) #false
+print(bool(f)) #false
+print(bool(g)) #false
