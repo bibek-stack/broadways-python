@@ -50,7 +50,7 @@ a = {1, 2, 3, 4}
 b = {3, 4, 5, 6}
 print(a.isdisjoint(b)) #false
 
-ssubset()
+#subset()
 a = {1, 2, 3, 4, 5, 6}
 b = {2, 3}
 print(b.issubset(a)) #True
